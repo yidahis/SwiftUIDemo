@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE944F9923E137E6003DABD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE944F9823E137E6003DABD5 /* AppDelegate.swift */; };
+		EE944F9B23E137E6003DABD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE944F9A23E137E6003DABD5 /* SceneDelegate.swift */; };
+		EE944F9E23E137E6003DABD5 /* GestureLock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE944F9C23E137E6003DABD5 /* GestureLock.xcdatamodeld */; };
+		EE944FA023E137E6003DABD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE944F9F23E137E6003DABD5 /* ContentView.swift */; };
+		EE944FA223E137F1003DABD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE944FA123E137F1003DABD5 /* Assets.xcassets */; };
+		EE944FA523E137F1003DABD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE944FA423E137F1003DABD5 /* Preview Assets.xcassets */; };
+		EE944FA823E137F1003DABD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE944FA623E137F1003DABD5 /* LaunchScreen.storyboard */; };
+		EE944FB323E137F1003DABD5 /* GestureLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE944FB223E137F1003DABD5 /* GestureLockTests.swift */; };
+		EE944FC423E139D1003DABD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE944FC323E139D1003DABD5 /* AppDelegate.swift */; };
+		EE944FC623E139D1003DABD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE944FC523E139D1003DABD5 /* SceneDelegate.swift */; };
+		EE944FC823E139D1003DABD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE944FC723E139D1003DABD5 /* ViewController.swift */; };
+		EE944FCB23E139D1003DABD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE944FC923E139D1003DABD5 /* Main.storyboard */; };
+		EE944FCE23E139D1003DABD5 /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE944FCC23E139D1003DABD5 /* ____.xcdatamodeld */; };
+		EE944FD023E139D7003DABD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE944FCF23E139D7003DABD5 /* Assets.xcassets */; };
+		EE944FD323E139D7003DABD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE944FD123E139D7003DABD5 /* LaunchScreen.storyboard */; };
+		EE944FDE23E139D8003DABD5 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE944FDD23E139D8003DABD5 /* ____Tests.swift */; };
+		EE944FE723E13A30003DABD5 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE944FE623E13A30003DABD5 /* LockView.swift */; };
+		EE944FE923E1745E003DABD5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE944FE823E1745E003DABD5 /* CircleImage.swift */; };
+		EE944FEB23E181C4003DABD5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE944FEA23E181C4003DABD5 /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE944FAF23E137F1003DABD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE944F8D23E137E6003DABD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE944F9423E137E6003DABD5;
+			remoteInfo = GestureLock;
+		};
+		EE944FDA23E139D8003DABD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE944F8D23E137E6003DABD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE944FC023E139D1003DABD5;
+			remoteInfo = "手势解锁";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE944F9523E137E6003DABD5 /* GestureLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE944F9823E137E6003DABD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE944F9A23E137E6003DABD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE944F9D23E137E6003DABD5 /* GestureLock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GestureLock.xcdatamodel; sourceTree = "<group>"; };
+		EE944F9F23E137E6003DABD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE944FA123E137F1003DABD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE944FA423E137F1003DABD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE944FA723E137F1003DABD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE944FA923E137F1003DABD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE944FAE23E137F1003DABD5 /* GestureLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE944FB223E137F1003DABD5 /* GestureLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureLockTests.swift; sourceTree = "<group>"; };
+		EE944FB423E137F1003DABD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE944FC123E139D1003DABD5 /* 手势解锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "手势解锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE944FC323E139D1003DABD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE944FC523E139D1003DABD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE944FC723E139D1003DABD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE944FCA23E139D1003DABD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE944FCD23E139D1003DABD5 /* ____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "____.xcdatamodel"; sourceTree = "<group>"; };
+		EE944FCF23E139D7003DABD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE944FD223E139D7003DABD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE944FD423E139D7003DABD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE944FD923E139D8003DABD5 /* 手势解锁Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手势解锁Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE944FDD23E139D8003DABD5 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		EE944FDF23E139D8003DABD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE944FE623E13A30003DABD5 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		EE944FE823E1745E003DABD5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		EE944FEA23E181C4003DABD5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE944F9223E137E6003DABD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE944FAB23E137F1003DABD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE944FBE23E139D1003DABD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE944FD623E139D8003DABD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE944F8C23E137E6003DABD5 = {
+			isa = PBXGroup;
+			children = (
+				EE944F9723E137E6003DABD5 /* GestureLock */,
+				EE944FB123E137F1003DABD5 /* GestureLockTests */,
+				EE944FC223E139D1003DABD5 /* 手势解锁 */,
+				EE944FDC23E139D8003DABD5 /* 手势解锁Tests */,
+				EE944F9623E137E6003DABD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE944F9623E137E6003DABD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE944F9523E137E6003DABD5 /* GestureLock.app */,
+				EE944FAE23E137F1003DABD5 /* GestureLockTests.xctest */,
+				EE944FC123E139D1003DABD5 /* 手势解锁.app */,
+				EE944FD923E139D8003DABD5 /* 手势解锁Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE944F9723E137E6003DABD5 /* GestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				EE944F9823E137E6003DABD5 /* AppDelegate.swift */,
+				EE944F9A23E137E6003DABD5 /* SceneDelegate.swift */,
+				EE944F9F23E137E6003DABD5 /* ContentView.swift */,
+				EE944FE823E1745E003DABD5 /* CircleImage.swift */,
+				EE944FEA23E181C4003DABD5 /* MapView.swift */,
+				EE944FA123E137F1003DABD5 /* Assets.xcassets */,
+				EE944FA623E137F1003DABD5 /* LaunchScreen.storyboard */,
+				EE944FA923E137F1003DABD5 /* Info.plist */,
+				EE944F9C23E137E6003DABD5 /* GestureLock.xcdatamodeld */,
+				EE944FA323E137F1003DABD5 /* Preview Content */,
+			);
+			path = GestureLock;
+			sourceTree = "<group>";
+		};
+		EE944FA323E137F1003DABD5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE944FA423E137F1003DABD5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE944FB123E137F1003DABD5 /* GestureLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE944FB223E137F1003DABD5 /* GestureLockTests.swift */,
+				EE944FB423E137F1003DABD5 /* Info.plist */,
+			);
+			path = GestureLockTests;
+			sourceTree = "<group>";
+		};
+		EE944FC223E139D1003DABD5 /* 手势解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				EE944FC323E139D1003DABD5 /* AppDelegate.swift */,
+				EE944FC523E139D1003DABD5 /* SceneDelegate.swift */,
+				EE944FC723E139D1003DABD5 /* ViewController.swift */,
+				EE944FE623E13A30003DABD5 /* LockView.swift */,
+				EE944FC923E139D1003DABD5 /* Main.storyboard */,
+				EE944FCF23E139D7003DABD5 /* Assets.xcassets */,
+				EE944FD123E139D7003DABD5 /* LaunchScreen.storyboard */,
+				EE944FD423E139D7003DABD5 /* Info.plist */,
+				EE944FCC23E139D1003DABD5 /* ____.xcdatamodeld */,
+			);
+			path = "手势解锁";
+			sourceTree = "<group>";
+		};
+		EE944FDC23E139D8003DABD5 /* 手势解锁Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE944FDD23E139D8003DABD5 /* ____Tests.swift */,
+				EE944FDF23E139D8003DABD5 /* Info.plist */,
+			);
+			path = "手势解锁Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE944F9423E137E6003DABD5 /* GestureLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE944FB723E137F1003DABD5 /* Build configuration list for PBXNativeTarget "GestureLock" */;
+			buildPhases = (
+				EE944F9123E137E6003DABD5 /* Sources */,
+				EE944F9223E137E6003DABD5 /* Frameworks */,
+				EE944F9323E137E6003DABD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureLock;
+			productName = GestureLock;
+			productReference = EE944F9523E137E6003DABD5 /* GestureLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE944FAD23E137F1003DABD5 /* GestureLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE944FBA23E137F1003DABD5 /* Build configuration list for PBXNativeTarget "GestureLockTests" */;
+			buildPhases = (
+				EE944FAA23E137F1003DABD5 /* Sources */,
+				EE944FAB23E137F1003DABD5 /* Frameworks */,
+				EE944FAC23E137F1003DABD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE944FB023E137F1003DABD5 /* PBXTargetDependency */,
+			);
+			name = GestureLockTests;
+			productName = GestureLockTests;
+			productReference = EE944FAE23E137F1003DABD5 /* GestureLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE944FC023E139D1003DABD5 /* 手势解锁 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE944FE023E139D8003DABD5 /* Build configuration list for PBXNativeTarget "手势解锁" */;
+			buildPhases = (
+				EE944FBD23E139D1003DABD5 /* Sources */,
+				EE944FBE23E139D1003DABD5 /* Frameworks */,
+				EE944FBF23E139D1003DABD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "手势解锁";
+			productName = "手势解锁";
+			productReference = EE944FC123E139D1003DABD5 /* 手势解锁.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE944FD823E139D8003DABD5 /* 手势解锁Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE944FE323E139D8003DABD5 /* Build configuration list for PBXNativeTarget "手势解锁Tests" */;
+			buildPhases = (
+				EE944FD523E139D8003DABD5 /* Sources */,
+				EE944FD623E139D8003DABD5 /* Frameworks */,
+				EE944FD723E139D8003DABD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE944FDB23E139D8003DABD5 /* PBXTargetDependency */,
+			);
+			name = "手势解锁Tests";
+			productName = "手势解锁Tests";
+			productReference = EE944FD923E139D8003DABD5 /* 手势解锁Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE944F8D23E137E6003DABD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = fame.inc;
+				TargetAttributes = {
+					EE944F9423E137E6003DABD5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EE944FAD23E137F1003DABD5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EE944F9423E137E6003DABD5;
+					};
+					EE944FC023E139D1003DABD5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EE944FD823E139D8003DABD5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EE944FC023E139D1003DABD5;
+					};
+				};
+			};
+			buildConfigurationList = EE944F9023E137E6003DABD5 /* Build configuration list for PBXProject "GestureLock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE944F8C23E137E6003DABD5;
+			productRefGroup = EE944F9623E137E6003DABD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE944F9423E137E6003DABD5 /* GestureLock */,
+				EE944FAD23E137F1003DABD5 /* GestureLockTests */,
+				EE944FC023E139D1003DABD5 /* 手势解锁 */,
+				EE944FD823E139D8003DABD5 /* 手势解锁Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE944F9323E137E6003DABD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE944FA823E137F1003DABD5 /* LaunchScreen.storyboard in Resources */,
+				EE944FA523E137F1003DABD5 /* Preview Assets.xcassets in Resources */,
+				EE944FA223E137F1003DABD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE944FAC23E137F1003DABD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE944FBF23E139D1003DABD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE944FD323E139D7003DABD5 /* LaunchScreen.storyboard in Resources */,
+				EE944FD023E139D7003DABD5 /* Assets.xcassets in Resources */,
+				EE944FCB23E139D1003DABD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE944FD723E139D8003DABD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE944F9123E137E6003DABD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE944F9923E137E6003DABD5 /* AppDelegate.swift in Sources */,
+				EE944FEB23E181C4003DABD5 /* MapView.swift in Sources */,
+				EE944F9E23E137E6003DABD5 /* GestureLock.xcdatamodeld in Sources */,
+				EE944FA023E137E6003DABD5 /* ContentView.swift in Sources */,
+				EE944F9B23E137E6003DABD5 /* SceneDelegate.swift in Sources */,
+				EE944FE923E1745E003DABD5 /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE944FAA23E137F1003DABD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE944FB323E137F1003DABD5 /* GestureLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE944FBD23E139D1003DABD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE944FC823E139D1003DABD5 /* ViewController.swift in Sources */,
+				EE944FCE23E139D1003DABD5 /* ____.xcdatamodeld in Sources */,
+				EE944FC423E139D1003DABD5 /* AppDelegate.swift in Sources */,
+				EE944FE723E13A30003DABD5 /* LockView.swift in Sources */,
+				EE944FC623E139D1003DABD5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE944FD523E139D8003DABD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE944FDE23E139D8003DABD5 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE944FB023E137F1003DABD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE944F9423E137E6003DABD5 /* GestureLock */;
+			targetProxy = EE944FAF23E137F1003DABD5 /* PBXContainerItemProxy */;
+		};
+		EE944FDB23E139D8003DABD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE944FC023E139D1003DABD5 /* 手势解锁 */;
+			targetProxy = EE944FDA23E139D8003DABD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE944FA623E137F1003DABD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE944FA723E137F1003DABD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EE944FC923E139D1003DABD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE944FCA23E139D1003DABD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE944FD123E139D7003DABD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE944FD223E139D7003DABD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE944FB523E137F1003DABD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE944FB623E137F1003DABD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE944FB823E137F1003DABD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GestureLock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GestureLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yi.fame.GestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE944FB923E137F1003DABD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GestureLock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GestureLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yi.fame.GestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE944FBB23E137F1003DABD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GestureLockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yi.fame.GestureLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureLock.app/GestureLock";
+			};
+			name = Debug;
+		};
+		EE944FBC23E137F1003DABD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GestureLockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yi.fame.GestureLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureLock.app/GestureLock";
+			};
+			name = Release;
+		};
+		EE944FE123E139D8003DABD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "手势解锁/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yi.fame.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE944FE223E139D8003DABD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "手势解锁/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yi.fame.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE944FE423E139D8003DABD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "手势解锁Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yi.fame.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/手势解锁.app/手势解锁";
+			};
+			name = Debug;
+		};
+		EE944FE523E139D8003DABD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "手势解锁Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yi.fame.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/手势解锁.app/手势解锁";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE944F9023E137E6003DABD5 /* Build configuration list for PBXProject "GestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE944FB523E137F1003DABD5 /* Debug */,
+				EE944FB623E137F1003DABD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE944FB723E137F1003DABD5 /* Build configuration list for PBXNativeTarget "GestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE944FB823E137F1003DABD5 /* Debug */,
+				EE944FB923E137F1003DABD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE944FBA23E137F1003DABD5 /* Build configuration list for PBXNativeTarget "GestureLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE944FBB23E137F1003DABD5 /* Debug */,
+				EE944FBC23E137F1003DABD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE944FE023E139D8003DABD5 /* Build configuration list for PBXNativeTarget "手势解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE944FE123E139D8003DABD5 /* Debug */,
+				EE944FE223E139D8003DABD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE944FE323E139D8003DABD5 /* Build configuration list for PBXNativeTarget "手势解锁Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE944FE423E139D8003DABD5 /* Debug */,
+				EE944FE523E139D8003DABD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE944F9C23E137E6003DABD5 /* GestureLock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE944F9D23E137E6003DABD5 /* GestureLock.xcdatamodel */,
+			);
+			currentVersion = EE944F9D23E137E6003DABD5 /* GestureLock.xcdatamodel */;
+			path = GestureLock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		EE944FCC23E139D1003DABD5 /* ____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE944FCD23E139D1003DABD5 /* ____.xcdatamodel */,
+			);
+			currentVersion = EE944FCD23E139D1003DABD5 /* ____.xcdatamodel */;
+			path = "____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE944F8D23E137E6003DABD5 /* Project object */;
+}
